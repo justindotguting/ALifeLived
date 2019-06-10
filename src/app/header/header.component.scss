@@ -60,6 +60,8 @@
     position: fixed;
     top: 0;
     width: 100%;
+    z-index:9999;
+    
   }
 
   .fa {
@@ -192,5 +194,5 @@
 }
 
 .bg-primary {
-  background-color: #1abc9c !important;
+  background-color: #05386b !important;
 }

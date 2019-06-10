@@ -18,7 +18,7 @@ import { LinkedinService } from '../app/linkedin.service';
     AboutComponent,
     InquireComponent,
     TravelComponent,
-    HomeComponent
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
