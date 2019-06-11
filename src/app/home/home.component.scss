@@ -147,7 +147,7 @@ ul {
     background-image: url("../../assets/images/JustinGutingEcuador.JPG");
 
   /* Full height */
-  height: 50%; 
+  height: 50%;
 
   /* Center and scale the image nicely */
   background-position: center;
@@ -170,13 +170,13 @@ ul {
     width: 100%;
   }
 
-  .fa {
+  .fab {
     padding: 20px;
     font-size: 30px;
     width: 65px;
     text-align: center;
     text-decoration: none;
-    margin: 11% 2px 1% 0;
+    margin: 1% 2px 1% 0;
     border-radius: 50%;
   }
   
@@ -304,10 +304,19 @@ ul {
 }
 .home-image-padding{
   padding: 0% 23% 0 23%;
+  margin: 0 0 15% 0;
 
 }
 
 .portfolio-padding{
   padding: 1% 0 1% 0;
+}
 
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transition: .5s ease;
+}
+
+.white-color-font{
+  color: white;
 }
