@@ -1,0 +1,141 @@
+[1mdiff --git a/src/app/home/home.component.html b/src/app/home/home.component.html[m
+[1mindex 28e3846..fdb22db 100644[m
+[1m--- a/src/app/home/home.component.html[m
+[1m+++ b/src/app/home/home.component.html[m
+[36m@@ -70,28 +70,28 @@[m
+ [m
+ <div class="row">[m
+   <div class="col-md-1 margin-auto no-border zoom">[m
+[31m-    <img class="img-fluid" url="assets/images/c-logo.png">[m
+[32m+[m[32m    <img class="img-fluid" src="assets/images/c-logo.png">[m
+   </div>[m
+   <div class="col-md-1 margin-auto no-border zoom">[m
+[31m-    <img class="img-fluid" url="assets/images/1200px-C_Sharp_wordmark.svg.png">[m
+[32m+[m[32m    <img class="img-fluid" src="assets/images/1200px-C_Sharp_wordmark.svg.png">[m
+   </div>[m
+   <div class="col-md-1 margin-auto no-border zoom">[m
+[31m-    <img class="img-fluid" url="assets/images/c-programming-language-500x500.png">[m
+[32m+[m[32m    <img class="img-fluid" src="assets/images/c-programming-language-500x500.png">[m
+   </div>[m
+   <div class="col-md-1 margin-auto no-border zoom">[m
+[31m-    <img class="img-fluid" url="assets/images/Java-logo-490x301.jpg">[m
+[32m+[m[32m    <img class="img-fluid" src="assets/images/Java-logo-490x301.jpg">[m
+   </div>[m
+   <div class="col-md-1 margin-auto no-border zoom">[m
+[31m-    <img class="img-fluid" url="assets/images/javascript.png">[m
+[32m+[m[32m    <img class="img-fluid" src="assets/images/javascript.png">[m
+   </div>[m
+   <div class="col-md-1 margin-auto no-border zoom">[m
+[31m-    <img class="img-fluid" url="assets/images/typescript.svg">[m
+[32m+[m[32m    <img class="img-fluid" src="assets/images/typescript.svg">[m
+   </div>[m
+   <div class="col-md-1 margin-auto no-border zoom">[m
+[31m-    <img class="img-fluid" url="assets/images/mzl.huoealqj.png">[m
+[32m+[m[32m    <img class="img-fluid" src="assets/images/mzl.huoealqj.png">[m
+   </div>[m
+   <div class="col-md-1 margin-auto no-border zoom">[m
+[31m-    <img class="img-fluid" url="assets/images/xsltimage.png">[m
+[32m+[m[32m    <img class="img-fluid" src="assets/images/xsltimage.png">[m
+   </div>[m
+ </div>[m
+ [m
+[36m@@ -100,34 +100,34 @@[m
+ [m
+ <div class="row">[m
+   <div class="col-md-1 margin-auto no-border zoom">[m
+[31m-    <img class="img-fluid" url="assets/images/new-relic.jpg">[m
+[32m+[m[32m    <img class="img-fluid" src="assets/images/new-relic.jpg">[m
+   </div>[m
+   <div class="col-md-1 margin-auto no-border zoom">[m
+[31m-    <img class="img-fluid" url="assets/images/sslcertificates.png">[m
+[32m+[m[32m    <img class="img-fluid" src="assets/images/sslcertificates.png">[m
+   </div>[m
+   <div class="col-md-1 margin-auto no-border zoom">[m
+[31m-    <img class="img-fluid" url="assets/images/splunk.jpg">[m
+[32m+[m[32m    <img class="img-fluid" src="assets/images/splunk.jpg">[m
+   </div>[m
+   <div class="col-md-1 margin-auto no-border zoom">[m
+[31m-    <img class="img-fluid" url="assets/images/microsicon.jpg">[m
+[32m+[m[32m    <img class="img-fluid" src="assets/images/microsicon.jpg">[m
+   </div>[m
+   <div class="col-md-1 margin-auto no-border zoom">[m
+[31m-    <img class="img-fluid" url="assets/images/Support_Computer_Device_Tools_Repair_Configure_PC-512.png">[m
+[32m+[m[32m    <img class="img-fluid" src="assets/images/Support_Computer_Device_Tools_Repair_Configure_PC-512.png">[m
+   </div>[m
+   <div class="col-md-1 margin-auto no-border zoom">[m
+[31m-    <img class="img-fluid" url="assets/images/microsoftactivedirectory.jpg">[m
+[32m+[m[32m    <img class="img-fluid" src="assets/images/microsoftactivedirectory.jpg">[m
+   </div>[m
+   <div class="col-md-1 margin-auto no-border zoom">[m
+[31m-    <img class="img-fluid" url="assets/images/Angular_full_color_logo.svg.png">[m
+[32m+[m[32m    <img class="img-fluid" src="assets/images/Angular_full_color_logo.svg.png">[m
+   </div>[m
+   <div class="col-md-1 margin-auto no-border zoom">[m
+[31m-    <img class="img-fluid" url="assets/images/Boostrap_logo.svg.png">[m
+[32m+[m[32m    <img class="img-fluid" src="assets/images/Boostrap_logo.svg.png">[m
+   </div>[m
+   <div class="col-md-1 margin-auto no-border zoom">[m
+[31m-    <img class="img-fluid" url="assets/images/WorkdayPhoto.png">[m
+[32m+[m[32m    <img class="img-fluid" src="assets/images/WorkdayPhoto.png">[m
+   </div>[m
+   <div class="col-md-1 margin-auto no-border zoom">[m
+[31m-    <img class="img-fluid" url="assets/images/api-icon.png">[m
+[32m+[m[32m    <img class="img-fluid" src="assets/images/api-icon.png">[m
+   </div>[m
+ </div>[m
+ [m
+[36m@@ -136,7 +136,7 @@[m
+ [m
+ <div class="row">[m
+   <div class="col-lg-9 margin-auto no-border chicago-size ">[m
+[31m-    <img class="img-fluid" url="assets/images/ChicagoIl.jpg">[m
+[32m+[m[32m    <img class="img-fluid" src="assets/images/ChicagoIl.jpg">[m
+   </div>[m
+ </div>[m
+ [m
+[36m@@ -154,26 +154,26 @@[m
+     <!-- About Section Content -->[m
+     <div class="row">[m
+       <div class="col-lg-3 margin-auto">[m
+[31m-        <img class="card-img-top card-image-width" url="assets/images/Kent State.png" alt="Card image cap">[m
+[32m+[m[32m        <img class="card-img-top card-image-width" src="assets/images/Kent State.png" alt="Card image cap">[m
+         <p class="lead">Graduted 2017, B.S. in Computer Science. Competed in two hackathons, was a part of CS club[m
+           called HacKSU, was a member of the social fraternity Sigma Nu.</p>[m
+       </div>[m
+       <div class="col-lg-3 margin-auto">[m
+[31m-        <img class="card-img-top card-image-width" url="assets/images/500px-Cedar_Point_logo.png"[m
+[32m+[m[32m        <img class="card-img-top card-image-width" src="assets/images/500px-Cedar_Point_logo.png"[m
+           alt="Card image cap">[m
+         <p class="lead">Spent one summer as a field technician troubleshooting Apple and PC devices, printers and[m
+           copiers, Microsoft Exchange Servers, Micros POS systems.</p>[m
+       </div>[m
+       <div class="col-lg-3 margin-auto">[m
+         <img class="card-img-top card-image-width"[m
+[31m-          url="assets/images/Nationwide_Mutual_Insurance_Company_logo.svg.png" alt="Card image cap">[m
+[32m+[m[32m          src="assets/images/Nationwide_Mutual_Insurance_Company_logo.svg.png" alt="Card image cap">[m
+         <p class="lead">Two internships and a year of full time experience as a Application Developer on the Finance IT[m
+           team, Application Monitoring Team, and the Service Oriented Architecture Team. Touch many platforms and[m
+           technologies mostly focusing on Web Services, APIs and Proxes.</p>[m
+       </div>[m
+ [m
+       <div class="col-lg-3 margin-auto">[m
+[31m-        <img class="card-img-top card-image-width" url="assets/images/huron_logo.jpg" alt="Card image cap">[m
+[32m+[m[32m        <img class="card-img-top card-image-width" src="assets/images/huron_logo.jpg" alt="Card image cap">[m
+         <p class="lead">Currently a traveling IT consultant for Workday Cloud. Certified in Workday Interations. Travel[m
+           weekly to client sites for Wokrday Implementation projects including HCM, Finance, and Student.</p>[m
+       </div>[m
+[36m@@ -191,12 +191,12 @@[m
+ <div class="row">[m
+   <div class="col-md-6">[m
+     <div class="embed-responsive embed-responsive-16by9">[m
+[31m-      <iframe class="embed-responsive-item" url="https://www.youtube.com/embed/5wtnKulcquA" allowfullscreen></iframe>[m
+[32m+[m[32m      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5wtnKulcquA" allowfullscreen></iframe>[m
+     </div>[m
+   </div>[m
+   <div class="col-md-6">[m
+     <div class="embed-responsive embed-responsive-16by9">[m
+[31m-      <iframe class="embed-responsive-item" url="https://www.youtube.com/embed/gqOEoUR5RHg" allowfullscreen></iframe>[m
+[32m+[m[32m      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/gqOEoUR5RHg" allowfullscreen></iframe>[m
+     </div>[m
+   </div>[m
+ </div>[m
